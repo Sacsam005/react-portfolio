@@ -40,19 +40,22 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .pl-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .pl {
     margin-top: 10rem;
-  }
-
-  .pl-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    padding: 0;
   }
 
   div.p {
     width: 100%;
-    padding: 0 1rem;
+    margin: 0 1rem;
   }
 }
