@@ -40,22 +40,17 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .pl-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
-}
+} */
 
 @media screen and (max-width: 991px) {
   .pl {
     margin-top: 10rem;
     padding: 0;
-  }
-
-  div.p {
-    width: 100%;
-    margin: 0 1rem;
   }
 }
