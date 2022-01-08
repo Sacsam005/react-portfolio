@@ -108,3 +108,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .i-scroll {
+    display: none;
+  }
+}
